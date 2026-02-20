@@ -1,0 +1,83 @@
+.contact-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;   
+  justify-content: center;
+  padding: 120px 40px 60px;  
+}
+.form-box,
+.thankyou-box {
+  background: #f7f7f9;
+  padding: 50px;
+  width: 600px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.form-box h2 span {
+  background: linear-gradient(90deg, #7c3aed, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form-box p {
+  color: gray;
+  margin-bottom: 30px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 18px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  background: #f8f8f8;
+  font-size: 14px;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+/* Gradient circle */
+.success-icon {
+  width: 85px;
+  height: 85px;
+  margin: 0 auto 25px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6d28ff, #ff007a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner-circle{
+  border-radius: 50%;
+  border: 3px solid white; 
+}
+/* Thin white tick */
+.check-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.gradient-btn {
+  padding: 12px 28px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  background: linear-gradient(90deg, #7c3aed, #ec4899);
+}
+
+.thankyou-box h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.thankyou-box p {
+  color: #555;
+  font-size: 16px;
+}
