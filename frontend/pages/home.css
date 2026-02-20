@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(90deg, #7b2ff7, #f107a3);
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* Hero */
+.hero {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+   margin-top: 90px;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.hero-btn {
+  margin-top: 10px;
+}
+
+/* Partners */
+.partners {
+  padding: 60px 80px;
+  text-align: center;
+  background: #eee;
+}
+
+.partner-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.partner-box {
+  background: #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 80px;
+  background: linear-gradient(90deg, #7b2ff7, #f107a3);
+  color: white;
+  text-align: center;
+}
+
+.stats h2 {
+  font-size: 40px;
+}
+/* Engagement Section */
+.engagement {
+  padding: 80px 100px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.engagement-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.engagement-subtitle {
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+  font-size: 16px;
+}
+
+.engagement-grid {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.eng-card1 {
+  background: white;
+  padding: 40px;
+  width: 420px;
+  border-radius: 18px;
+  text-align: left;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+
+  /* Default Gray Border */
+  border: 2px solid #e0e0e0;
+}
+
+/* Hover Effect */
+.eng-card1:hover {
+
+  /* Purple Gradient Border */
+  border: 2px solid transparent;
+  background-image: 
+    linear-gradient(white, white),
+    linear-gradient(90deg, #a47be7);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+.eng-card2 {
+  background: white;
+  padding: 40px;
+  width: 420px;
+  border-radius: 18px;
+  text-align: left;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+
+  /* Default Gray Border */
+  border: 2px solid #e0e0e0;
+}
+
+/* Hover Effect */
+.eng-card2:hover {
+
+  /* Purple Gradient Border */
+  border: 2px solid transparent;
+  background-image: 
+    linear-gradient(white, white),
+    linear-gradient(90deg,#fd6fce);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.icon.purple {
+  background: linear-gradient(135deg, #7b2ff7, #9c27ff);
+}
+
+.icon.pink {
+  background: linear-gradient(135deg, #ff006a, #ff4da6);
+}
+
+.eng-card h3 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.card-desc {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.eng-card ul {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.eng-card ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.pricing span {
+  font-size: 13px;
+  color: #888;
+}
+
+.pricing h4 {
+  margin: 8px 0;
+  font-size: 20px;
+}
+
+.pricing small {
+  color: #666;
+}
+
+.learn-link {
+  display: inline-block;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #7b2ff7;
+  text-decoration: none;
+}
+/* ================= COMMON CONTAINER ================= */
+
+.container1 {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+/* ================= OUTCOME SECTION ================= */
+
+.outcome-section {
+  padding: 120px 0;
+  background: #f5f5f5;
+}
+
+.image-handshake {
+  position: relative;
+  flex: 0 0 48%;
+}
+
+.image-handshake img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 22px;
+}
+
+.success-card {
+  position: absolute;
+  bottom: -40px;
+  left: 60px;
+  background: #fff;
+  padding: 25px 35px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.12);
+}
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7b2ff7, #f107a3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 22px;
+}
+
+.content {
+  flex: 0 0 48%;
+}
+
+.content h2 {
+  font-size: 54px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+.desc {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.point {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 30px;
+}
+
+.point span {
+  color: #a855f7;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.point h4 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.point p {
+  color: #666;
+  font-size: 15px;
+}
+
+/* ================= BUILT SECTION ================= */
+
+.built-section {
+  padding: 120px 0;
+  background: #f9f9f9;
+}
+
+.built-content {
+  flex: 0 0 48%;
+}
+
+.built-content h2 {
+  font-size: 54px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.built-content p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+  line-height: 1.7;
+}
+
+.cards {
+  display: flex;
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  padding: 35px;
+  border-radius: 20px;
+  width: 200px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.card p {
+  color: #777;
+  font-size: 14px;
+}
+
+.built-image {
+  position: relative;
+  flex: 0 0 48%;
+}
+
+.built-image img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 22px;
+}
+
+.days-badge {
+  position: absolute;
+  top: -40px;
+  left: 60px;
+  background: linear-gradient(135deg, #7b2ff7, #f107a3);
+  color: white;
+  padding: 22px 40px;
+  border-radius: 18px;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+}
+
+.days-badge h3 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.days-badge p {
+  font-size: 14px;
+  opacity: 0.9;
+}
